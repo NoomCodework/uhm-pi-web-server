@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: osisoft.pidevclub.piwebapi
+Version: 1.1.5
+Summary: PI Web API client library for Python (2017 R2)
+Home-page: https://github.com/osimloeff/PI-Web-API-Client-Python
+Author: Marcos Vainer Loeff
+Author-email: mloeff@osisoft.com
+License: MIT
+Keywords: PI Web API
+Classifier: Development Status :: 5 - Production/Stable
+License-File: LICENSE.md
+Requires-Dist: six >=1.10
+Requires-Dist: flatdict
+Requires-Dist: requests
+Requires-Dist: requests-ntlm
+Requires-Dist: requests-kerberos
+Requires-Dist: pandas >=0.20.3
+Requires-Dist: setuptools >=21.0.0
+
+    PI Web API client library for Python (2017 R2)
+    
