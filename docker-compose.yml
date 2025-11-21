@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  ntlm-api:
+    build: .
+    container_name: fastapi-ntlm-server
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - scg-uhm-network
+
+networks:
+  scg-uhm-network:
+    external: true
